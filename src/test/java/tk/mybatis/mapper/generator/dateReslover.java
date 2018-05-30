@@ -27,7 +27,6 @@ public class dateReslover {
                     String secondReplace = firstReplace.replaceFirst("name", "column");
                     String resStr = secondReplace.replace(")", ", typeHandler = TimeTypeHandler.class)");
                     list.set(i - 1, resStr);
-                    list.set(i, thisline.replaceFirst("Date", "Long"));
                 }
             }
         }
